@@ -1,0 +1,20 @@
+{
+  "samples/Recommended Libraries.ojs": {
+    "default": "GordonSmith__blocks__observable-file-block"
+  },
+  "samples/Recommended Libraries.ojsnb": {
+    "default": "GordonSmith__blocks__observable-file-block"
+  },
+  "samples/Recommended Libraries.omd": {
+    "default": "GordonSmith__blocks__observable-file-block"
+  },
+  "samples/penguins.csv": {
+    "default": "GordonSmith__blocks__data-file-block"
+  },
+  "samples/iris.json": {
+    "default": "GordonSmith__blocks__data-file-block"
+  },
+  "samples/weather.parquet": {
+    "default": "GordonSmith__blocks__data-file-block"
+  }
+}

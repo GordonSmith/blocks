@@ -1,0 +1,15 @@
+import { viewof tableSummary } with { myData as data } from "./Data Tables.ojsnb";
+
+viewof tableSummary;
+
+md`---`;
+
+import {DuckDBClient} from '@cmudig/duckdb';
+
+file = FileAttachment("https://raw.githubusercontent.com/GordonSmith/blocks/main/samples/iris.json");
+
+db = DuckDBClient.of([file])
+
+name = (await db.describeTables())[0].name;
+
+myData = db.sql([`SELECT * FROM "${name}"`])

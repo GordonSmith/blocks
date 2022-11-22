@@ -11,5 +11,18 @@
       "*.ojsnb"
     ],
     "example_path": "https://github.com/GordonSmith/blocks/blob/main/samples/Recommended%20Libraries.omd"
+  },
+  {
+    "type": "file",
+    "id": "data-file-block",
+    "title": "Data File Preview",
+    "description": "Data preview block - supporting .csv, .json and .parquet files.",
+    "entry": "blocks/data-file-block/index.tsx",
+    "matches": [
+      "*.csv",
+      "*.json",
+      "*.parquet"
+    ],
+    "example_path": "https://github.com/GordonSmith/blocks/blob/main/samples/Recommended%20Libraries.omd"
   }
 ]

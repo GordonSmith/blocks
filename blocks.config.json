@@ -1,0 +1,15 @@
+[
+  {
+    "type": "file",
+    "id": "observable-file-block",
+    "title": "ObservableJS File Block",
+    "description": "ObservableJS file block - supporting .ojs, .omd and .ojsnb files.",
+    "entry": "blocks/observable-file-block/index.tsx",
+    "matches": [
+      "*.ojs",
+      "*.omd",
+      "*.ojsnb"
+    ],
+    "example_path": "https://github.com/GordonSmith/blocks/blob/main/samples/Recommended%20Libraries.omd"
+  }
+]

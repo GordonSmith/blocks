@@ -1,0 +1,600 @@
+{
+    "id": "8b1f9ed1e23e12f9",
+    "slug": "recommended-libraries",
+    "trashed": false,
+    "description": "",
+    "likes": 84,
+    "publish_level": "public",
+    "forks": 1,
+    "fork_of": null,
+    "has_importers": true,
+    "update_time": "2022-09-26T16:59:03.535Z",
+    "first_public_version": null,
+    "paused_version": null,
+    "publish_time": "2021-05-13T23:37:03.970Z",
+    "publish_version": 499,
+    "latest_version": 499,
+    "thumbnail": "1d5ed3683a648a1a26d4d1b8f1b5f4e912e875f7339d58d297714da86237ba77",
+    "default_thumbnail": "2925d4d11cd27a82905414de9e51450cc5ba14112591c3a51de36c0c3ee060ee",
+    "roles": [],
+    "sharing": null,
+    "owner": {
+        "id": "f35c755083683fe5",
+        "avatar_url": "https://avatars.observableusercontent.com/avatar/5a51c3b908225a581d20577e488e2aba8cbc9541c52982c638638c370c3e5e8e",
+        "login": "observablehq",
+        "name": "Observable",
+        "bio": "Use data to think, together.",
+        "home_url": "https://observablehq.com",
+        "type": "team",
+        "tier": "pro_enterprise"
+    },
+    "creator": {
+        "id": "074c414ad1d825f5",
+        "github_login": "mbostock",
+        "avatar_url": "https://avatars.observableusercontent.com/avatar/82811927da99f8938001b2ef1f552ad2c47083e46ebc55a3a146a5a5848c4519",
+        "login": "mbostock",
+        "name": "Mike Bostock",
+        "bio": "Building a better computational medium. Founder @observablehq. Creator @d3. Former @nytgraphics. Pronounced BOSS-tock.",
+        "home_url": "https://bost.ocks.org/mike/",
+        "tier": "pro"
+    },
+    "authors": [],
+    "collections": [
+        {
+            "id": "7eea0c678f957b61",
+            "type": "public",
+            "slug": "libraries",
+            "title": "Libraries",
+            "description": "Reusable notebooks, ready for import and remix.",
+            "update_time": "2020-12-01T00:42:27.585Z",
+            "pinned": true,
+            "ordered": true,
+            "custom_thumbnail": "a578557db9cf6c6689c756dd42172a43ad8d87b195c9589fcbe1e9a0cae9cdef",
+            "default_thumbnail": "5a8d92da8e3ba985b0f568c02543420a883fe44998e12fb266cdb0a907d0b98d",
+            "thumbnail": "a578557db9cf6c6689c756dd42172a43ad8d87b195c9589fcbe1e9a0cae9cdef",
+            "listing_count": 25,
+            "parent_collection_count": 1,
+            "owner": {
+                "id": "f35c755083683fe5",
+                "avatar_url": "https://avatars.observableusercontent.com/avatar/5a51c3b908225a581d20577e488e2aba8cbc9541c52982c638638c370c3e5e8e",
+                "login": "observablehq",
+                "name": "Observable",
+                "bio": "Use data to think, together.",
+                "home_url": "https://observablehq.com",
+                "type": "team",
+                "tier": "pro_enterprise"
+            }
+        }
+    ],
+    "files": [
+        {
+            "id": "ef1053b80e60ecf7aaeec165f1f2a1a512c0fa864e90aa0d6d8e8c80e307ebc921ed12eae87144f76f13764c683a7e2c818502f6a287a5cfff9a93a501eb27e3",
+            "url": "https://static.observableusercontent.com/files/ef1053b80e60ecf7aaeec165f1f2a1a512c0fa864e90aa0d6d8e8c80e307ebc921ed12eae87144f76f13764c683a7e2c818502f6a287a5cfff9a93a501eb27e3",
+            "download_url": "https://static.observableusercontent.com/files/ef1053b80e60ecf7aaeec165f1f2a1a512c0fa864e90aa0d6d8e8c80e307ebc921ed12eae87144f76f13764c683a7e2c818502f6a287a5cfff9a93a501eb27e3?response-content-disposition=attachment%3Bfilename*%3DUTF-8%27%27movies.json",
+            "name": "movies.json",
+            "create_time": "2021-05-13T02:30:22.717Z",
+            "mime_type": "application/json",
+            "status": "public",
+            "size": 1399981,
+            "content_encoding": "gzip"
+        },
+        {
+            "id": "b3711cfd9bdf50cbe4e74751164d28e907ce366cd4bf56a39a980a48fdc5f998c42a019716a8033e2b54defdd97e4a55ebe4f6464b4f0678ea0311532605a115",
+            "url": "https://static.observableusercontent.com/files/b3711cfd9bdf50cbe4e74751164d28e907ce366cd4bf56a39a980a48fdc5f998c42a019716a8033e2b54defdd97e4a55ebe4f6464b4f0678ea0311532605a115",
+            "download_url": "https://static.observableusercontent.com/files/b3711cfd9bdf50cbe4e74751164d28e907ce366cd4bf56a39a980a48fdc5f998c42a019716a8033e2b54defdd97e4a55ebe4f6464b4f0678ea0311532605a115?response-content-disposition=attachment%3Bfilename*%3DUTF-8%27%27chinook.db",
+            "name": "chinook.db",
+            "create_time": "2021-05-25T23:04:14.608Z",
+            "mime_type": "application/x-sqlite3",
+            "status": "public",
+            "size": 884736,
+            "content_encoding": null
+        }
+    ],
+    "comments": [
+        {
+            "id": "4e3328479a8d8c1d",
+            "content": "Does this mean that importing code from other notebooks will now skip the cells in those notebooks that aren't referenced? So if (for example) I have a lot of examples and images in that notebook, those won't be loaded if all I import is the code in one cell?",
+            "node_id": 67,
+            "create_time": "2021-05-14T11:11:48.013Z",
+            "update_time": null,
+            "resolved": true,
+            "user": {
+                "id": "d36034ddfb454bdd",
+                "github_login": "JobLeonard",
+                "avatar_url": "https://avatars.observableusercontent.com/avatar/808373580aa09723ceabb9cb31d01ea6db287280b59eaa63618e259f5d28dd71",
+                "login": "jobleonard",
+                "name": "Job van der Zwan",
+                "bio": "Tinkering with code and algorithms for fun",
+                "home_url": "",
+                "tier": "pro"
+            }
+        },
+        {
+            "id": "50763c9b7dfc642a",
+            "content": "It’s always been the case that imports are evaluated lazily. If you import a notebook and you don’t reference some cells (transitively, meaning either directly or indirectly), then those cells won’t run. So if the unreferenced cells load a file or do something else expensive, that is automatically avoided.\n\nThat said, transitive imports of notebooks are currently static, and thus will be run even if none of the imported cells are referenced. I’d like to improve this by switching to dynamic import, but I don’t know when I’ll have time to do it. There’s an issue here if you’d like to vote on it.\n\nhttps://github.com/observablehq/feedback/issues/74",
+            "node_id": 67,
+            "create_time": "2021-05-14T15:07:09.580Z",
+            "update_time": null,
+            "resolved": true,
+            "user": {
+                "id": "074c414ad1d825f5",
+                "github_login": "mbostock",
+                "avatar_url": "https://avatars.observableusercontent.com/avatar/82811927da99f8938001b2ef1f552ad2c47083e46ebc55a3a146a5a5848c4519",
+                "login": "mbostock",
+                "name": "Mike Bostock",
+                "bio": "Building a better computational medium. Founder @observablehq. Creator @d3. Former @nytgraphics. Pronounced BOSS-tock.",
+                "home_url": "https://bost.ocks.org/mike/",
+                "tier": "pro"
+            }
+        },
+        {
+            "id": "926696470163162e",
+            "content": "I recommend _.range(4) as an example here because it's one of the things you can't do much better otherwise and mean is more home at d3.",
+            "node_id": 143,
+            "create_time": "2021-10-29T22:54:29.211Z",
+            "update_time": null,
+            "resolved": true,
+            "user": {
+                "id": "75aecdc67c9c3e41",
+                "github_login": null,
+                "avatar_url": "https://avatars.observableusercontent.com/avatar/69e2b33d1ba6ffa4a6341cd8ced3cdfdaee4e6911cd16311958cd6a5138687a0",
+                "login": "jtheisen",
+                "name": "Jens Theisen",
+                "bio": "German IT freelancer / entrepreneur",
+                "home_url": "",
+                "tier": "pro"
+            }
+        },
+        {
+            "id": "584e473eef154cd1",
+            "content": "d3.range(4) will give you pretty much the same thing. There’s a lot of overlap.",
+            "node_id": 143,
+            "create_time": "2021-12-05T03:23:35.351Z",
+            "update_time": null,
+            "resolved": true,
+            "user": {
+                "id": "074c414ad1d825f5",
+                "github_login": "mbostock",
+                "avatar_url": "https://avatars.observableusercontent.com/avatar/82811927da99f8938001b2ef1f552ad2c47083e46ebc55a3a146a5a5848c4519",
+                "login": "mbostock",
+                "name": "Mike Bostock",
+                "bio": "Building a better computational medium. Founder @observablehq. Creator @d3. Former @nytgraphics. Pronounced BOSS-tock.",
+                "home_url": "https://bost.ocks.org/mike/",
+                "tier": "pro"
+            }
+        }
+    ],
+    "commenting_lock": null,
+    "suggestion_from": null,
+    "suggestions_to": [],
+    "version": 499,
+    "title": "Recommended Libraries",
+    "license": null,
+    "copyright": "",
+    "nodes": [
+        {
+            "id": 455,
+            "name": "",
+            "value": "# Recommended Libraries\n\nTo help you get work done quickly, the [Observable standard library](https://github.com/observablehq/stdlib) provides a handful of recommended open-source libraries by default in all notebooks. (Use [require](/@observablehq/introduction-to-require) to load any other library you desire.)",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 0,
+            "name": "recLibsTable",
+            "value": "| Symbol | Name | Version |\n|-|-|-|\n| _ | Lodash | 4.17.21 |\n| aq | Arquero | ${aq.version} |\n| Arrow | Apache Arrow | 4.0.1 |\n| d3 | D3.js | ${d3.version} |\n| dot | Graphviz | 0.2.1 |\n| htl | Hypertext Literal | ${htl.version} |\n| Inputs | Observable Inputs | ${Inputs.version} |\n| L | Leaflet | ${L.version} |\n| mermaid | Mermaid | 9.1.1 |\n| Plot | Observable Plot | ${Plot.version} |\n| SQLite | SQL.js | 1.7.0 |\n| topojson | TopoJSON Client | 3.1.0 |\n| vl | Vega, Vega-Lite | 5.22.1, 5.2.0 |",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 20,
+            "name": "",
+            "value": "---\n\n### [Lodash](https://lodash.com/docs/4.17.21)\n\nLodash takes the hassle out of working with data.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 23,
+            "name": null,
+            "value": "_",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 143,
+            "name": null,
+            "value": "_.mean([25, 24, 26, 12])",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 401,
+            "name": "",
+            "value": "---\n\n### [Arquero](https://uwdata.github.io/arquero/)\n\nArquero is a library for “query processing and transformation of array-backed data tables.” It is often (but not always) used in conjunction with Apache Arrow.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 406,
+            "name": null,
+            "value": "aq",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 370,
+            "name": "",
+            "value": "---\n\n### [Apache Arrow](https://arrow.apache.org/docs/js/)\n\nApache Arrow is a columnar file format and accompanying JavaScript library for in-memory data analysis. See [Brian Hulette’s introduction](/@theneuralbit/introduction-to-apache-arrow) for more.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 389,
+            "name": null,
+            "value": "Arrow",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 34,
+            "name": "",
+            "value": "---\n\n### [D3.js](https://d3js.org)\n\nD3 is a low-level library for visualizing and analyzing data.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 37,
+            "name": null,
+            "value": "d3",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 163,
+            "name": null,
+            "value": "d3.mean([25, 24, 26, 12])",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 340,
+            "name": null,
+            "value": "d3.create(\"svg\")\r\n    .attr(\"width\", 128)\r\n    .attr(\"height\", 128)\r\n  .call(svg => svg.selectAll(\"circle\")\r\n    .data(d3.range(128, 0, -8))\r\n    .join(\"circle\")\r\n      .attr(\"fill\", d3.scaleSequential(d3.interpolateViridis).domain([0, 128]))\r\n      .attr(\"r\", d => d))\r\n  .node()",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 314,
+            "name": "",
+            "value": "---\n\n### [Graphviz](https://github.com/observablehq/graphviz)\n\n[Graphviz](http://www.graphviz.org) visualizes abstract graphs and networks, such as flow charts.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 318,
+            "name": null,
+            "value": "dot",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 325,
+            "name": null,
+            "value": "dot`digraph { rankdir = RL; x -> y -> z; }`",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 236,
+            "name": "",
+            "value": "---\n\n### [Hypertext Literal](/@observablehq/htl)\n\nHypertext Literal lets you safely generate dynamic HTML or SVG. (This is a more powerful substitute for the `html` tagged template literal which is also in the standard library; when Observable supports standard library versioning, this will be available as `html` instead of `htl.html`.)",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 243,
+            "name": null,
+            "value": "htl",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 250,
+            "name": null,
+            "value": "htl.html`Hello, <i>world</i>!`",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 41,
+            "name": "",
+            "value": "---\n\n### [Observable Inputs](/@observablehq/inputs)\n\nThese lightweight interface components — buttons, sliders, dropdowns, tables, and the like — help you explore data and build interactive displays.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 45,
+            "name": null,
+            "value": "Inputs",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 175,
+            "name": null,
+            "value": "viewof gain = Inputs.range([0, 11], {value: 5, step: 0.1, label: \"Gain\"})",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 177,
+            "name": null,
+            "value": "gain",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 485,
+            "name": "",
+            "value": "---\n\n### [Leaflet](/@observablehq/hello-leaflet)\n\nLeaflet lets you create mobile-friendly interactive maps.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 488,
+            "name": null,
+            "value": "L",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 490,
+            "name": null,
+            "value": "map = {\r\n  const container = yield htl.html`<div style=\"height: 400px; max-width: 640px;\">`;\r\n  const map = L.map(container).setView([37.774, -122.423], 13);\r\n  L.tileLayer(\"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\", {\r\n    attribution: \"© <a href=https://www.openstreetmap.org/copyright>OpenStreetMap</a> contributors\"\r\n  }).addTo(map);\r\n}",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 463,
+            "name": "",
+            "value": "---\n\n### [Mermaid](/@observablehq/mermaid)\n\nMermaid lets you create diagrams and visualizations using text and code.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 465,
+            "name": null,
+            "value": "mermaid",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 469,
+            "name": null,
+            "value": "mermaid`graph TD\r\nA-->B\r\nA-->C\r\nB-->D\r\nC-->D`",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 49,
+            "name": "",
+            "value": "---\n\n### [Observable Plot](/@observablehq/plot)\n\nPlot helps you quickly visualize tabular data.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 52,
+            "name": null,
+            "value": "Plot",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 185,
+            "name": null,
+            "value": "Plot.rectY(movies, Plot.binX({y: \"count\"}, {x: \"IMDB Rating\"})).plot()",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 345,
+            "name": "",
+            "value": "---\n\n### [SQL.js](https://sql.js.org/)\n\nSQL.js is an Emscripten port of SQLite. It’s typically used with a SQLite [file attachment](/@observablehq/file-attachments) to get a [SQLite database client](/@observablehq/sqlite).",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 351,
+            "name": null,
+            "value": "SQLite",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 358,
+            "name": null,
+            "value": "chinook = FileAttachment(\"chinook.db\").sqlite()",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 360,
+            "name": null,
+            "value": "Inputs.table(await chinook.query(`SELECT * FROM albums`))",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 428,
+            "name": "",
+            "value": "---\n\n### [TopoJSON Client](https://github.com/topojson/topojson-client)\n\nTopoJSON is a topology-encoding geometry format that is often used for mapping.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 432,
+            "name": null,
+            "value": "topojson",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 27,
+            "name": "",
+            "value": "---\n\n### [Vega-Lite](https://vega.github.io/vega-lite-api/)\n\nVega-Lite is a high-level grammar for visual analysis.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 31,
+            "name": null,
+            "value": "vl",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 159,
+            "name": null,
+            "value": "vl.markBar()\r\n  .data(movies)\r\n  .encode(vl.x().fieldQ('IMDB Rating').bin(true), vl.y().count())\r\n  .render()",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 181,
+            "name": null,
+            "value": "movies = FileAttachment(\"movies.json\").json()",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 98,
+            "name": "",
+            "value": "---\n\n## FAQ",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 67,
+            "name": "",
+            "value": "**What about performance?** Isn’t it slow to load all these libraries on every notebook? No! Thanks to static analysis and the magic of [Observable dataflow](/@observablehq/how-observable-runs), a library isn’t loaded unless you reference it. Your notebooks are as fast as ever (and possibly faster, since we can make some optimizations).",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 70,
+            "name": "",
+            "value": "**What about versioning?** When new patch or minor versions are released, we’ll upgrade the Observable standard library so that your notebook gets the latest version automatically. In the future, we plan to let you control when (and if) you want to upgrade; for now you can override the standard library in your notebook if you need to specify a different version.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 72,
+            "name": "",
+            "value": "**What if I want to use something else?** Go right ahead! You can override anything in Observable’s standard library simply by defining a cell with the same name in your notebook. See our [introduction to require](/@observablehq/introduction-to-require) for more on loading libraries.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        },
+        {
+            "id": 82,
+            "name": "",
+            "value": "**What about my favorite library?** Let us know what you’d like added! We’re tracking suggestions as [issues on GitHub](https://github.com/observablehq/stdlib/issues). For now we’re only including a few of the most popular open-source libraries and libraries of our own. Soon we plan to allow you to add (or change) what’s available by default in your notebooks. Stay tuned.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "outputs": []
+        }
+    ],
+    "resolutions": []
+}

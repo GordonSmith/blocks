@@ -19,8 +19,13 @@ export default function (props: FileBlockProps) {
             if ((context.path.indexOf(".csv") === context.path.length - 4) ||
                 (context.path.indexOf(".json") === context.path.length - 5) ||
                 (context.path.indexOf(".parquet") === context.path.length - 8)) {
+                const path = `https://raw.githubusercontent.com/${context.owner}/${context.repo}/${context.sha}/${context.path}`
+                const parts = path.split(".");
+                parts.pop();
+                const name = parts.join(".");
                 rawNotebook = ojs2notebook(`\
 import { viewof tableSummary, viewof jsQueryEditor } with { myData as data } from "@randomfractals/duckdb-data-tables";
+import {DuckDBClient} from '@cmudig/duckdb'
 
 viewof tableSummary;
 
@@ -34,15 +39,11 @@ viewof jsQueryEditor;
 
 md\`-- - \`;
 
-import {DuckDBClient} from '@cmudig/duckdb';
-
-file = FileAttachment("https://raw.githubusercontent.com/${context.owner}/${context.repo}/${context.sha}/${context.path}");
+file = FileAttachment("${path}");
 
 db = DuckDBClient.of([file])
 
-name = (await db.describeTables())[0].name;
-
-myData = db.sql([\`SELECT * FROM '\${name}'\`]);
+myData = db.sql([\`SELECT * FROM '${name}'\`]);
 `);
             }
             if (rawNotebook) {

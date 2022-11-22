@@ -207,7 +207,7 @@
             "outputs": []
         },
         {
-            "id": "35d9e084-14f2-4b31-9de4-f60b35539044",
+            "id": "0e87ca96-6120-4630-92ad-0d741bb49611",
             "name": "",
             "value": "",
             "mode": "md",
@@ -310,6 +310,13 @@
             "pinned": false,
             "mode": "js",
             "data": null,
+            "outputs": []
+        },
+        {
+            "id": "957f7924-781c-4ac7-908d-5ed1d4548690",
+            "name": "",
+            "value": "table",
+            "mode": "js",
             "outputs": []
         },
         {

@@ -8,7 +8,7 @@
             "name": "Launch Edge",
             "request": "launch",
             "type": "msedge",
-            "url": "http://localhost:4000",
+            "url": "https://blocks.githubnext.com/GordonSmith/blocks?devServer=http%3A%2F%2Flocalhost%3A4000%2F",
             "webRoot": "${workspaceFolder}"
         },
     ]

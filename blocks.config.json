@@ -14,10 +14,10 @@
   },
   {
     "type": "file",
-    "id": "data-file-block-ii",
+    "id": "data-file-block",
     "title": "Data File Preview",
     "description": "Data preview block - supporting .csv, .json and .parquet files.",
-    "entry": "blocks/data-file-block-ii/index.tsx",
+    "entry": "blocks/data-file-block/index.tsx",
     "matches": [
       "*.csv",
       "*.json",

@@ -84,7 +84,7 @@ viewof wrangler = Wrangler(myData);
                         mode: "js",
                         value: `\
 md\`---
-### TODO V5:  Hide debug info
+### TODO V6:  Hide debug info
 \`;
 import {DuckDBClient} from '@cmudig/duckdb'
 import {Wrangler} from '@observablehq/data-wrangler'

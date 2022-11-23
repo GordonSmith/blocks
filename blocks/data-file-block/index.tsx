@@ -1,7 +1,6 @@
 import React from "react";
-import { Box, ToggleSwitch } from "@primer/react";
 import { FileBlockProps, getLanguageFromFilename } from "@githubnext/blocks";
-import { compile, omd2notebook, ojs2notebook, ohq } from "@hpcc-js/observablehq-compiler";
+import { compile, ohq } from "@hpcc-js/observablehq-compiler";
 import { Runtime, Inspector } from "@observablehq/runtime";
 
 import "@hpcc-js/observablehq-compiler/dist/index.css";
@@ -85,7 +84,7 @@ viewof wrangler = Wrangler(myData);
                         mode: "js",
                         value: `\
 md\`---
-### TODO:  Hide debug info
+### TODO V5:  Hide debug info
 \`;
 import {DuckDBClient} from '@cmudig/duckdb'
 import {Wrangler} from '@observablehq/data-wrangler'
